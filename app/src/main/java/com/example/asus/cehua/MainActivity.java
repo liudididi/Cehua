@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                     if(list!=null){
                         ad = new Myxlv(MainActivity.this,list);
                         xlv.setAdapter(ad);
+
                     }
 
                 } catch (JSONException e) {
